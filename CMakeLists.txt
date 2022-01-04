@@ -17,6 +17,7 @@ Fetchcontent_Makeavailable(CppExtendedEnum)
 
 set(ENUMS
     ${CMAKE_CURRENT_LIST_DIR}/enums/capitals.json
+    ${CMAKE_CURRENT_LIST_DIR}/enums/names.json
 )
 
 add_executable(CppExtendedEnumTester)
@@ -29,5 +30,5 @@ target_sources(CppExtendedEnumTester
 )
 
 Generate_Enum(${ENUMS})
-target_link_libraries(CppExtendedEnumTester CppExtendedEnumTester::capitals)
+target_link_libraries(CppExtendedEnumTester CppExtendedEnumTester::capitals CppExtendedEnumTester::names)
 set_property(TARGET CppExtendedEnumTester PROPERTY CXX_STANDARD 20)
