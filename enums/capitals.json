@@ -1,0 +1,28 @@
+{
+    "values": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Madrid",
+        "Rome",
+        "Amsterdam",
+        "Barcelona",
+        "Vienna",
+        "Prague",
+        "Bratislava",
+        "Budapest",
+        "Warsaw",
+        "Helsinki",
+        "Copenhagen",
+        "Stockholm",
+        "Oslo",
+        "Lisbon",
+        "Athens",
+        "Bucharest",
+        "Moscow",
+        "Belgrade",
+        "Brussels",
+        "Sofia"
+    ],
+    "namespace": "ExtEnums"
+}
